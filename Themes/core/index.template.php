@@ -204,7 +204,7 @@ function template_body_above()
 		echo $context['forum_name_html_safe'];
 	else
 		echo '
-			<a href="//www.moparscape.org/moparscape.html"><img src="', $context['header_logo_url_html_safe'], '" alt="', $context['forum_name_html_safe'], '" /></a>';
+			<a href="//www.moparscape.org/smf/"><img src="', $context['header_logo_url_html_safe'], '" alt="', $context['forum_name_html_safe'], '" /></a>';
 
 	echo '
 			</h1>
